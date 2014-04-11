@@ -1,0 +1,200 @@
+.cleaner {
+    clear: both;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+span.wide {
+    padding: 0 1em;
+}
+
+body {
+    background: white url("images/body-background.png") repeat;
+    color: #666;
+    font-family: "Open Sans", "Helvetica", sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0 1px 1px white;
+}
+
+h1, h2, h3 {
+    color: black;
+    font-family: "Raleway", "Helvetica", sans-serif;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+a {
+    color: #aa1c55;
+}
+
+a:hover {
+    color: #f90064;
+}
+
+li {
+    line-height: 30px;
+}
+
+#page {
+    background: transparent url("images/header-background.png") top repeat-x;
+}
+
+#header {
+    height: 200px;
+}
+
+#header h1 {
+    color: #aa1c55;
+    padding-top: 40px;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+#header h1 span {
+    color: #666;
+    display: block;
+    font-size: 40px;
+}
+
+#header img {
+    float: left;
+}
+
+#header, #infobox, #content, #footer {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.fb-like-wrapper {
+    margin: 0 auto 20px auto;
+    max-width: 900px;
+    min-height: 50px;
+    text-align: center;
+}
+
+#infobox {
+    background: white;
+    background: -linear-gradient(top, white, #f5f5f5);
+    background: -webkit-linear-gradient(top, white, #f5f5f5);
+    background: -moz-linear-gradient(top, white, #f5f5f5);
+    background: -o-linear-gradient(top, white, #f5f5f5);
+    background: -ms-linear-gradient(top, white, #f5f5f5);
+
+    border-radius: 5px;
+
+    box-shadow:         0 1px 3px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow:    0 1px 3px rgba(0, 0, 0, 0.4);
+    -o-box-shadow:      0 1px 3px rgba(0, 0, 0, 0.4);
+    -ms-box-shadow:     0 1px 3px rgba(0, 0, 0, 0.4);
+
+    margin-bottom: 30px;
+}
+
+#infobox #schedule, #infobox #contact, #infobox #address { width: 33%; float: left; text-align: center; padding-bottom: 20px; line-height: 25px; }
+#infobox #schedule, #infobox #contact { border-right: 1px dashed #e4d5d0; }
+
+#infobox h3 {
+    color: #aa1c55;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+#infobox #schedule h3 {
+    background: url("images/icon-clock.png") 20px center no-repeat;
+}
+
+#infobox #contact {
+    color: black;
+    font-size: 26px;
+}
+
+#infobox #contact .call-note {
+    line-height: 1em;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#infobox #contact h3 {
+    background: url("images/icon-phone.png") 20px center no-repeat;
+}
+
+#infobox #address h3 {
+    background: url("images/icon-address.png") 20px center no-repeat;
+}
+
+#infobox #note {
+    color: #333;
+    background: #ffffcc;
+    border-top: 1px solid #e4d5d0;
+    font-size: 16px;
+    line-height: 1.5em;
+    padding: 8px 8px 8px 20px;
+    text-align: left;
+}
+
+#intro #salon {
+    border: 4px solid white;
+    box-shadow:         0 2px 5px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow:    0 2px 5px rgba(0, 0, 0, 0.3);
+    -o-box-shadow:      0 2px 5px rgba(0, 0, 0, 0.3);
+    -ms-box-shadow:     0 2px 5px rgba(0, 0, 0, 0.3);
+    float: right;
+    margin-left: 40px;
+}
+
+#pricelist {
+    background: transparent url("images/delimiter.jpg") top center no-repeat;
+    margin: 40px auto;
+}
+
+#pricelist h2 {
+    padding: 40px 0 10px 0;
+    text-align: center;
+}
+
+#pricelist .item {
+    border-bottom: 1px dashed #ccc;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: left;
+    width: 550px;
+}
+
+#pricelist .item em {
+    padding-left: 1em;
+}
+
+#pricelist .item .price {
+    font-family: monospace;
+    float: right;
+}
+
+div.promo {
+    padding: 0.5em 0;
+    text-align: center;
+}
+
+.promo {
+    background: #ffffcc;
+    color: black;
+    padding: 0.3em 0.5em;
+}
+
+a.promo {
+    color: #d00 !important;
+}
+
+
+#footer { padding: 20px; margin-top: 20px; text-align: center; background: transparent url("images/delimiter.jpg") top center no-repeat; }
