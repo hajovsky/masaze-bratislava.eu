@@ -155,6 +155,8 @@ li {
     -ms-box-shadow:     0 2px 5px rgba(0, 0, 0, 0.3);
     float: right;
     margin-left: 40px;
+    width: 440px;
+    height: 307px;
 }
 
 #pricelist {
